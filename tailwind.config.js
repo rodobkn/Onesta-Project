@@ -10,6 +10,9 @@ module.exports = {
         'white-normal': '#FFFFFF',
         'neutral-gray-2': '#E8E8E8',
       },
+      scale: {
+        '-100': '-1',
+      },
     },
   },
   plugins: [],

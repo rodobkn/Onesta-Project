@@ -6,6 +6,19 @@ html {
   background-color: #E8E8E8;
 }
 
+.init-row-desc {
+  @apply flex-1 bg-[#E9F1FF] px-2 py-2 border border-white-normal font-normal text-sm rounded-l-lg;
+}
+
+.row-desc {
+  @apply flex-1 bg-[#E9F1FF] px-2 py-2 border border-white-normal font-normal text-sm;
+}
+
+.final-row-desc {
+  @apply flex-1 bg-[#E9F1FF] px-2 py-2 border border-white-normal font-normal text-sm rounded-r-lg;
+}
+
+
 .init-row-item {
   @apply flex-1 bg-white-normal border border-neutral-gray-2 px-2 py-3 rounded-l-lg shadow-sm;
 }
